@@ -8,7 +8,7 @@ const SectionTitle = ({heading, subHeading}) => {
         </div>
         
         <div className='flex justify-center'>
-        <h3 className='w-[30%] text-center text-4xl font-bold py-2 border-y-2 border-gray-500 my-3'>{heading}</h3>
+        <h3 className='w-[50%] text-center text-4xl font-bold py-2 border-y-2 border-gray-500 my-3'>{heading}</h3>
         </div>
     </div>
   );
