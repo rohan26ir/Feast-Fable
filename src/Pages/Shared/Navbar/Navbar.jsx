@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar fixed z-30 bg-opacity-30 bg-black text-white">
         <div className="flex-1">
           <Link to={"/"} className="btn btn-ghost text-xl">
             Feast & Fable
@@ -15,14 +15,14 @@ const Navbar = () => {
         <div className="flex-none">
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1 gap-2">
-              <li>
+              <li className="">
                 <NavLink to={"/"}>HOME</NavLink>
               </li>
               <li>
                 <NavLink to={""}>CONTACT US</NavLink>
               </li>
               <li>
-                <NavLink to={""}>DASHBOARD</NavLink>
+                <NavLink to={"/asdisa"}>DASHBOARD</NavLink>
               </li>
               <li>
                 <NavLink to={""}>Our Menu</NavLink>
@@ -71,7 +71,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          
+
           <div>
           <ul className="menu menu-horizontal px-1 gap-2">
               <li>
